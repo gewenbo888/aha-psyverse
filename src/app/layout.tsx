@@ -53,6 +53,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "aha · 啊哈 (Visual Learning Engine)" }],
     title: "aha — visual learning engine",
     description:
       "Play with abstract ideas until they click. Fourier transforms, sorting algorithms, gravity simulations — all interactive.",
@@ -63,6 +64,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "aha — see it. play with it. finally understand it.",
     description:
